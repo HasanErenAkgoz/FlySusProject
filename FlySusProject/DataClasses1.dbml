@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="FlySusData" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=FlySusData;Integrated Security=True" SettingsObjectName="FlySusProject.Properties.Settings" SettingsPropertyName="FlySusDataConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Salespersons" Member="Salespersons">
+    <Type Name="Salespersons">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="SalepersonEposta" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="SalespersonSıfre" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.OperationsManagers" Member="OperationsManagers">
+    <Type Name="OperationsManagers">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="OperationsmanagerEposta" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="OperationsManagerSıfre" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
